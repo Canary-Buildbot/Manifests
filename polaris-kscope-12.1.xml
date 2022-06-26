@@ -34,6 +34,7 @@
   <remove-project name="android_hardware_qcom_display" />
   <remove-project name="android_hardware_qcom_media" />
   <remove-project name="android_packages_resources_devicesettings" />
+  <project path="prebuilts/clang/host/linux-x86/clang-prelude" remote="jjpprrrr-gitlab" name="prelude-clang" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pe" />
   <project path="external/tinyxml" name="external_tinyxml" remote="pe" />
   <project path="hardware/qcom-caf/sdm845/display" remote="pe" name="hardware_qcom-caf_sdm845_display" />
