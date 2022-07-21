@@ -43,6 +43,6 @@
   <project path="hardware/qcom-caf/sdm845/audio" remote="pe" name="hardware_qcom-caf_sdm845_audio" />
   <project path="hardware/qcom-caf/vr" remote="pe" name="hardware_qcom-caf_vr" />
   <project path="hardware/xiaomi" remote="pe" name="hardware_xiaomi" />
-  <project path="hardware/custom/interfaces" remote="pe" name="hardware_custom_interfaces" />
+  <project path="hardware/custom/interfaces" remote="canary" name="hardware_custom_interfaces" />
 
 </manifest>
