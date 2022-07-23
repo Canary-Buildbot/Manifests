@@ -6,9 +6,8 @@
   <project name="Canary-Buildbot/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="github" revision="kscope-12.1-clover" />
   <project name="Canary-Buildbot/android_device_xiaomi_clover" path="device/xiaomi/clover" remote="github" revision="kscope-12.1" />
   <project name="kyasu/android_device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="github" revision="lineage-19.1" />
-  <project name="nazunamoe-device/android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="github" revision="12_75hz" />
+  <project name="nazunamoe-device/android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="github" revision="new_90hz" />
   <project name="kyasu/android_vendor_xiaomi_clover" path="vendor/xiaomi/clover" remote="github" revision="lineage-19.1" />
   <project name="kyasu/android_vendor_xiaomi_sdm660-common" path="vendor/xiaomi/sdm660-common" remote="github" revision="lineage-19.1" />
-
 
 </manifest>
