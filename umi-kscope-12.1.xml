@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="canary"
+           fetch="https://github.com/Canary-Buildbot"
+           review="github.com"
+           revision="refs/heads/kscope-12.1" />
+
+  <remote  name="arrow"
+           fetch="https://github.com/ArrowOS-Devices"
+           review="github.com"
+           revision="refs/heads/arrow-12.1" />
+
+  <remote  name="chaptsand"
+           fetch="https://github.com/chaptsand"
+           review="github.com"
+           revision="refs/heads/android12-stable" />
+
+  <remove-project name="android_external_faceunlock" />
+  <project path="external/faceunlock" remote="canary" name="android_external_faceunlock" />
+  <project path="device/xiaomi/umi" remote="canary" name="android_device_xiaomi_umi" />
+  <project path="kernel/xiaomi/sm8250" remote="chaptsand" name="kernel_xiaomi_sm8250" />
+  <project path="vendor/xiaomi/umi" remote="canary" name="android_vendor_xiaomi_umi" />
+  <project path="hardware/xiaomi" remote="arrow" name="android_hardware_xiaomi" />
+</manifest>
