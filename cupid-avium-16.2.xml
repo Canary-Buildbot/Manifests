@@ -15,6 +15,11 @@
         revision="refs/heads/avium-16.2"
         review="review.aviumui.org" />
 
+    <remote name="Avium-priv"
+        fetch="git@github.com:AviumUI"
+        revision="refs/heads/avium-16.2"
+        review="review.aviumui.org" />
+
     <remote name="Canary"
         fetch="https://github.com/Canary-Buildbot"
         revision="refs/heads/avium-16.2"
@@ -30,4 +35,5 @@
     <project path="vendor/xiaomi/diting" remote="TheMuppets" name="proprietary_vendor_xiaomi_diting" />
     <project path="vendor/xiaomi/sm8450-common" remote="TheMuppets" name="proprietary_vendor_xiaomi_sm8450-common" />
     <project path="hardware/xiaomi" remote="LineageOS" name="android_hardware_xiaomi" />
+    <project path="vendor/lineage-priv" remote="Avium-priv" name="android_vendor_lineage-priv" />
 </manifest>
