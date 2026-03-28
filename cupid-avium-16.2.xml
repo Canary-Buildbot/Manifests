@@ -15,19 +15,14 @@
         revision="refs/heads/avium-16.2"
         review="review.aviumui.org" />
 
-    <remote name="Canary"
-        fetch="https://github.com/Canary-Buildbot"
-        revision="refs/heads/avium-16.2"
-        review="review.aviumui.org" />
-
-    <project path="device/xiaomi/cupid" remote="Canary" name="android_device_xiaomi_cupid" />
-    <project path="device/xiaomi/diting" remote="LineageOS" name="android_device_xiaomi_diting" />
+    <project path="device/xiaomi/cupid" remote="Avium-devices" name="device_xiaomi_cupid" />
+    <project path="device/xiaomi/miuicamera-cupid" remote="Avium-devices" name="device_xiaomi_miuicamera-cupid" />
+    <project path="vendor/xiaomi/miuicamera-cupid" remote="Avium-devices" name="vendor_xiaomi_miuicamera-cupid" />
     <project path="device/xiaomi/sm8450-common" remote="LineageOS" name="android_device_xiaomi_sm8450-common" />
     <project path="kernel/xiaomi/sm8450" remote="LineageOS" name="android_kernel_xiaomi_sm8450" />
     <project path="kernel/xiaomi/sm8450-devicetrees" remote="LineageOS" name="android_kernel_xiaomi_sm8450-devicetrees" />
     <project path="kernel/xiaomi/sm8450-modules" remote="LineageOS" name="android_kernel_xiaomi_sm8450-modules" />
     <project path="vendor/xiaomi/cupid" remote="TheMuppets" name="proprietary_vendor_xiaomi_cupid" />
-    <project path="vendor/xiaomi/diting" remote="TheMuppets" name="proprietary_vendor_xiaomi_diting" />
     <project path="vendor/xiaomi/sm8450-common" remote="TheMuppets" name="proprietary_vendor_xiaomi_sm8450-common" />
     <project path="hardware/xiaomi" remote="LineageOS" name="android_hardware_xiaomi" />
 </manifest>
